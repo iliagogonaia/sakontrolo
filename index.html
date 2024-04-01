@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+    <center>
+    <div class="main">
+        <div class="header">Employee Satisfaction Survey</div>
+        <div class="name">Name</div>
+        <input type="search" class="firstsearch">
+        <input type="search" class="lastsearch">
+        <div class="fr">Firstname</div>
+        <div class="lt">Lastname</div>
+        <div class="quest">How would you describe your overall level of job satisfaction?</div>
+        <form action="/action_page.php">
+        <input type="radio" class="very" name="fav_language" value="very">
+        <label for="very">Very Satisfied</label><br>
+        <input type="radio" class="somewhat" name="fav_language" value="somewhat">
+        <label for="somewhat">Somewhat Satisfied</label><br>
+        <input type="radio" class="neut" name="fav_language" value="neut">
+        <label for="neut">Neutral</label><br>
+        <input type="radio" class="diss" name="fav_language" value="diss">
+        <label for="diss">Somewhat Dissatisfied</label><br>
+        <input type="radio" id="dissa" name="fav_language" value="dissa">
+        <label for="dissa">Very Dissatisfied</label><br>
+        </form>
+        <div class="secheader">Do you have the resources you need to perform your job well?</div>
+        <form action="/action_page.php">
+        <input type="radio" class="yes" name="igive" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" class="no" name="igive" value="no">
+        <label for="no">No</label>
+            
+        </form>
+        <div class="if">If No,Please Explain</div>
+        <input type="search" class="search" placeholder="Type here...">
+        <div class="please">Please Provide Any Additional Feedback</div>
+        <input type="search" class="rame" placeholder="Type here...">
+        <button>Submit</button>
+    </div>
+    </center>
+    
+</body>
+</html>
